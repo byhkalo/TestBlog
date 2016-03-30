@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KBBlogView.h"
 
 @interface KBBlogViewController : UIViewController
 
+@property (nonatomic, strong) KBBlogView *blogView;
 @end

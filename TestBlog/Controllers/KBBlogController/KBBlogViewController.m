@@ -7,7 +7,18 @@
 //
 
 #import "KBBlogViewController.h"
+#import "KBMacros.h"
 
 @implementation KBBlogViewController
+
+UIViewControllerViewGetterSynthesize(KBBlogView, blogView)
+
+#pragma mark -
+#pragma mark LoadingView
+
+- (void)viewDidLoad {
+    
+
+}
 
 @end
