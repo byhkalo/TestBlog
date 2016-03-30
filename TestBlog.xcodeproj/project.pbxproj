@@ -16,6 +16,8 @@
 		04F8C4241CAC659B00A40D0D /* KBBlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C4231CAC659B00A40D0D /* KBBlogViewController.m */; };
 		04F8C4261CAC66D300A40D0D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 04F8C4251CAC66D300A40D0D /* Podfile */; };
 		04F8C4291CAC6A7A00A40D0D /* KBBlogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C4281CAC6A7A00A40D0D /* KBBlogView.m */; };
+		04F8C4331CAC732500A40D0D /* KBBlogDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C4321CAC732500A40D0D /* KBBlogDelegate.m */; };
+		04F8C4351CAC74ED00A40D0D /* KBBlogDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C4341CAC74ED00A40D0D /* KBBlogDelegateTests.m */; };
 		97466D451385CB1219E92DAB /* libPods-TestBlog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBF5B02F7C0596A19A5606B /* libPods-TestBlog.a */; };
 		A9334BEA554D374AA761CB21 /* libPods-TestBlogTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB69B385CD736D99114CB968 /* libPods-TestBlogTests.a */; };
 /* End PBXBuildFile section */
@@ -48,6 +50,9 @@
 		04F8C4271CAC6A7A00A40D0D /* KBBlogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBlogView.h; sourceTree = "<group>"; };
 		04F8C4281CAC6A7A00A40D0D /* KBBlogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBlogView.m; sourceTree = "<group>"; };
 		04F8C42D1CAC6F3400A40D0D /* KBMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBMacros.h; sourceTree = "<group>"; };
+		04F8C4311CAC732500A40D0D /* KBBlogDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBlogDelegate.h; sourceTree = "<group>"; };
+		04F8C4321CAC732500A40D0D /* KBBlogDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBlogDelegate.m; sourceTree = "<group>"; };
+		04F8C4341CAC74ED00A40D0D /* KBBlogDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBlogDelegateTests.m; sourceTree = "<group>"; };
 		1279D5322B211DD22C883A99 /* Pods-TestBlog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlog/Pods-TestBlog.debug.xcconfig"; sourceTree = "<group>"; };
 		1659D922E5A8197D71985715 /* Pods-TestBlog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlog.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlog/Pods-TestBlog.release.xcconfig"; sourceTree = "<group>"; };
 		410A3364CE7D5F2BB27120BE /* Pods-TestBlogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlogTests/Pods-TestBlogTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +130,7 @@
 		04F8C4121CAC611D00A40D0D /* TestBlogTests */ = {
 			isa = PBXGroup;
 			children = (
+				04F8C4341CAC74ED00A40D0D /* KBBlogDelegateTests.m */,
 				04F8C4131CAC611D00A40D0D /* TestBlogTests.m */,
 				04F8C4151CAC611D00A40D0D /* Info.plist */,
 			);
@@ -142,6 +148,8 @@
 		04F8C41F1CAC657700A40D0D /* KBBlogDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				04F8C4311CAC732500A40D0D /* KBBlogDelegate.h */,
+				04F8C4321CAC732500A40D0D /* KBBlogDelegate.m */,
 			);
 			path = KBBlogDelegate;
 			sourceTree = "<group>";
@@ -411,6 +419,7 @@
 			files = (
 				04F8C4241CAC659B00A40D0D /* KBBlogViewController.m in Sources */,
 				04F8C3FE1CAC611D00A40D0D /* KBAppDelegate.m in Sources */,
+				04F8C4331CAC732500A40D0D /* KBBlogDelegate.m in Sources */,
 				04F8C3FB1CAC611D00A40D0D /* main.m in Sources */,
 				04F8C4291CAC6A7A00A40D0D /* KBBlogView.m in Sources */,
 			);
@@ -421,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F8C4141CAC611D00A40D0D /* TestBlogTests.m in Sources */,
+				04F8C4351CAC74ED00A40D0D /* KBBlogDelegateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
