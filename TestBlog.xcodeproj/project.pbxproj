@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		04F8C3FB1CAC611D00A40D0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C3FA1CAC611D00A40D0D /* main.m */; };
-		04F8C3FE1CAC611D00A40D0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C3FD1CAC611D00A40D0D /* AppDelegate.m */; };
-		04F8C4011CAC611D00A40D0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C4001CAC611D00A40D0D /* ViewController.m */; };
+		04F8C3FE1CAC611D00A40D0D /* KBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C3FD1CAC611D00A40D0D /* KBAppDelegate.m */; };
 		04F8C4041CAC611D00A40D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F8C4021CAC611D00A40D0D /* Main.storyboard */; };
 		04F8C4061CAC611D00A40D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F8C4051CAC611D00A40D0D /* Assets.xcassets */; };
 		04F8C4091CAC611D00A40D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F8C4071CAC611D00A40D0D /* LaunchScreen.storyboard */; };
 		04F8C4141CAC611D00A40D0D /* TestBlogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C4131CAC611D00A40D0D /* TestBlogTests.m */; };
+		04F8C4241CAC659B00A40D0D /* KBBlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C4231CAC659B00A40D0D /* KBBlogViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,10 +29,8 @@
 /* Begin PBXFileReference section */
 		04F8C3F61CAC611D00A40D0D /* TestBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F8C3FA1CAC611D00A40D0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04F8C3FC1CAC611D00A40D0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		04F8C3FD1CAC611D00A40D0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04F8C3FF1CAC611D00A40D0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04F8C4001CAC611D00A40D0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04F8C3FC1CAC611D00A40D0D /* KBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBAppDelegate.h; sourceTree = "<group>"; };
+		04F8C3FD1CAC611D00A40D0D /* KBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBAppDelegate.m; sourceTree = "<group>"; };
 		04F8C4031CAC611D00A40D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04F8C4051CAC611D00A40D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F8C4081CAC611D00A40D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +38,8 @@
 		04F8C40F1CAC611D00A40D0D /* TestBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F8C4131CAC611D00A40D0D /* TestBlogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBlogTests.m; sourceTree = "<group>"; };
 		04F8C4151CAC611D00A40D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F8C4221CAC659B00A40D0D /* KBBlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBlogViewController.h; sourceTree = "<group>"; };
+		04F8C4231CAC659B00A40D0D /* KBBlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBlogViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +81,10 @@
 		04F8C3F81CAC611D00A40D0D /* TestBlog */ = {
 			isa = PBXGroup;
 			children = (
-				04F8C3FC1CAC611D00A40D0D /* AppDelegate.h */,
-				04F8C3FD1CAC611D00A40D0D /* AppDelegate.m */,
-				04F8C3FF1CAC611D00A40D0D /* ViewController.h */,
-				04F8C4001CAC611D00A40D0D /* ViewController.m */,
+				04F8C3FC1CAC611D00A40D0D /* KBAppDelegate.h */,
+				04F8C3FD1CAC611D00A40D0D /* KBAppDelegate.m */,
+				04F8C41E1CAC657700A40D0D /* Adapters */,
+				04F8C4201CAC657700A40D0D /* Controllers */,
 				04F8C4021CAC611D00A40D0D /* Main.storyboard */,
 				04F8C4051CAC611D00A40D0D /* Assets.xcassets */,
 				04F8C4071CAC611D00A40D0D /* LaunchScreen.storyboard */,
@@ -109,6 +109,38 @@
 				04F8C4151CAC611D00A40D0D /* Info.plist */,
 			);
 			path = TestBlogTests;
+			sourceTree = "<group>";
+		};
+		04F8C41E1CAC657700A40D0D /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				04F8C41F1CAC657700A40D0D /* KBBlogDelegate */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		04F8C41F1CAC657700A40D0D /* KBBlogDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KBBlogDelegate;
+			sourceTree = "<group>";
+		};
+		04F8C4201CAC657700A40D0D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04F8C4211CAC657700A40D0D /* KBBlogController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04F8C4211CAC657700A40D0D /* KBBlogController */ = {
+			isa = PBXGroup;
+			children = (
+				04F8C4221CAC659B00A40D0D /* KBBlogViewController.h */,
+				04F8C4231CAC659B00A40D0D /* KBBlogViewController.m */,
+			);
+			path = KBBlogController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +243,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F8C4011CAC611D00A40D0D /* ViewController.m in Sources */,
-				04F8C3FE1CAC611D00A40D0D /* AppDelegate.m in Sources */,
+				04F8C4241CAC659B00A40D0D /* KBBlogViewController.m in Sources */,
+				04F8C3FE1CAC611D00A40D0D /* KBAppDelegate.m in Sources */,
 				04F8C3FB1CAC611D00A40D0D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KBBlogViewController.h
 //  TestBlog
 //
 //  Created by Konstantyn Bykhkalo on 30.03.16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface KBBlogViewController : UIViewController
 
 @end
-

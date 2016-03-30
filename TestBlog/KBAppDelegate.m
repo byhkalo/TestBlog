@@ -1,18 +1,18 @@
 //
-//  AppDelegate.m
+//  KBAppDelegate.m
 //  TestBlog
 //
 //  Created by Konstantyn Bykhkalo on 30.03.16.
 //  Copyright © 2016 Bykhkalo Konstantyh. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "KBAppDelegate.h"
 
-@interface AppDelegate ()
+@interface KBAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation KBAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

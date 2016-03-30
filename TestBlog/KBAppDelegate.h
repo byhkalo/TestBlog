@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  KBAppDelegate.h
 //  TestBlog
 //
 //  Created by Konstantyn Bykhkalo on 30.03.16.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface KBAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
 
 
 @end
