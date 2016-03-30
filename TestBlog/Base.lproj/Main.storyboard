@@ -5,15 +5,15 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Blog View Controller-->
         <scene sceneID="q82-k8-9na">
             <objects>
-                <viewController id="1nI-Nm-fAg" sceneMemberID="viewController">
+                <viewController id="1nI-Nm-fAg" customClass="KBBlogViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LUE-X7-Fgz"/>
                         <viewControllerLayoutGuide type="bottom" id="iSm-1Q-fu7"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="wFs-0w-qn5">
+                    <view key="view" contentMode="scaleToFill" id="wFs-0w-qn5" customClass="KBBlogView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>

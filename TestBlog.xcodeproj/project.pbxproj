@@ -1,1187 +1,596 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>04F8C3ED1CAC611D00A40D0D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>04F8C3F81CAC611D00A40D0D</string>
-				<string>04F8C4121CAC611D00A40D0D</string>
-				<string>04F8C3F71CAC611D00A40D0D</string>
-				<string>DE80224365AC0EEFCC482C61</string>
-				<string>489347BB6E075FA25C060527</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C3EE1CAC611D00A40D0D</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Bykhkalo Konstantyh</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>04F8C3F51CAC611D00A40D0D</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-					</dict>
-					<key>04F8C40E1CAC611D00A40D0D</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>04F8C3F51CAC611D00A40D0D</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>04F8C3F11CAC611D00A40D0D</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>04F8C3ED1CAC611D00A40D0D</string>
-			<key>productRefGroup</key>
-			<string>04F8C3F71CAC611D00A40D0D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>04F8C3F51CAC611D00A40D0D</string>
-				<string>04F8C40E1CAC611D00A40D0D</string>
-			</array>
-		</dict>
-		<key>04F8C3F11CAC611D00A40D0D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>04F8C4161CAC611D00A40D0D</string>
-				<string>04F8C4171CAC611D00A40D0D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>04F8C3F21CAC611D00A40D0D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>04F8C4241CAC659B00A40D0D</string>
-				<string>04F8C3FE1CAC611D00A40D0D</string>
-				<string>04F8C3FB1CAC611D00A40D0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>04F8C3F31CAC611D00A40D0D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>97466D451385CB1219E92DAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>04F8C3F41CAC611D00A40D0D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>04F8C4091CAC611D00A40D0D</string>
-				<string>04F8C4061CAC611D00A40D0D</string>
-				<string>04F8C4261CAC66D300A40D0D</string>
-				<string>04F8C4041CAC611D00A40D0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>04F8C3F51CAC611D00A40D0D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>04F8C4181CAC611D00A40D0D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>DCE07418AFD21E62CEC711F9</string>
-				<string>04F8C3F21CAC611D00A40D0D</string>
-				<string>04F8C3F31CAC611D00A40D0D</string>
-				<string>04F8C3F41CAC611D00A40D0D</string>
-				<string>32437058CDFECD5A8FD65E1E</string>
-				<string>4B64642404513C20D000D01A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TestBlog</string>
-			<key>productName</key>
-			<string>TestBlog</string>
-			<key>productReference</key>
-			<string>04F8C3F61CAC611D00A40D0D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>04F8C3F61CAC611D00A40D0D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TestBlog.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>04F8C3F71CAC611D00A40D0D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>04F8C3F61CAC611D00A40D0D</string>
-				<string>04F8C40F1CAC611D00A40D0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C3F81CAC611D00A40D0D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>04F8C3FC1CAC611D00A40D0D</string>
-				<string>04F8C3FD1CAC611D00A40D0D</string>
-				<string>04F8C41E1CAC657700A40D0D</string>
-				<string>04F8C4201CAC657700A40D0D</string>
-				<string>04F8C4251CAC66D300A40D0D</string>
-				<string>04F8C4021CAC611D00A40D0D</string>
-				<string>04F8C4051CAC611D00A40D0D</string>
-				<string>04F8C4071CAC611D00A40D0D</string>
-				<string>04F8C40A1CAC611D00A40D0D</string>
-				<string>04F8C3F91CAC611D00A40D0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>TestBlog</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C3F91CAC611D00A40D0D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>04F8C3FA1CAC611D00A40D0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C3FA1CAC611D00A40D0D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C3FB1CAC611D00A40D0D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04F8C3FA1CAC611D00A40D0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>04F8C3FC1CAC611D00A40D0D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>KBAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C3FD1CAC611D00A40D0D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>KBAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C3FE1CAC611D00A40D0D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04F8C3FD1CAC611D00A40D0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>04F8C4021CAC611D00A40D0D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>04F8C4031CAC611D00A40D0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4031CAC611D00A40D0D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4041CAC611D00A40D0D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04F8C4021CAC611D00A40D0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>04F8C4051CAC611D00A40D0D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4061CAC611D00A40D0D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04F8C4051CAC611D00A40D0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>04F8C4071CAC611D00A40D0D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>04F8C4081CAC611D00A40D0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4081CAC611D00A40D0D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4091CAC611D00A40D0D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04F8C4071CAC611D00A40D0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>04F8C40A1CAC611D00A40D0D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C40B1CAC611D00A40D0D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>04F8C4141CAC611D00A40D0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>04F8C40C1CAC611D00A40D0D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A9334BEA554D374AA761CB21</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>04F8C40D1CAC611D00A40D0D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>04F8C40E1CAC611D00A40D0D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>04F8C41B1CAC611D00A40D0D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8A937B92D965433B33C3EC4A</string>
-				<string>04F8C40B1CAC611D00A40D0D</string>
-				<string>04F8C40C1CAC611D00A40D0D</string>
-				<string>04F8C40D1CAC611D00A40D0D</string>
-				<string>2D89171B407E5F7AB29B5776</string>
-				<string>C8F4F60E880F617B65D02236</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>04F8C4111CAC611D00A40D0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TestBlogTests</string>
-			<key>productName</key>
-			<string>TestBlogTests</string>
-			<key>productReference</key>
-			<string>04F8C40F1CAC611D00A40D0D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>04F8C40F1CAC611D00A40D0D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TestBlogTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>04F8C4101CAC611D00A40D0D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>04F8C3EE1CAC611D00A40D0D</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>04F8C3F51CAC611D00A40D0D</string>
-			<key>remoteInfo</key>
-			<string>TestBlog</string>
-		</dict>
-		<key>04F8C4111CAC611D00A40D0D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>04F8C3F51CAC611D00A40D0D</string>
-			<key>targetProxy</key>
-			<string>04F8C4101CAC611D00A40D0D</string>
-		</dict>
-		<key>04F8C4121CAC611D00A40D0D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>04F8C4131CAC611D00A40D0D</string>
-				<string>04F8C4151CAC611D00A40D0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>TestBlogTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4131CAC611D00A40D0D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TestBlogTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4141CAC611D00A40D0D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04F8C4131CAC611D00A40D0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>04F8C4151CAC611D00A40D0D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4161CAC611D00A40D0D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>04F8C4171CAC611D00A40D0D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>04F8C4181CAC611D00A40D0D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>04F8C4191CAC611D00A40D0D</string>
-				<string>04F8C41A1CAC611D00A40D0D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>04F8C4191CAC611D00A40D0D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1279D5322B211DD22C883A99</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TestBlog/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>BykhkaloKonstantyn.TestBlog</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>04F8C41A1CAC611D00A40D0D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1659D922E5A8197D71985715</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TestBlog/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>BykhkaloKonstantyn.TestBlog</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>04F8C41B1CAC611D00A40D0D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>04F8C41C1CAC611D00A40D0D</string>
-				<string>04F8C41D1CAC611D00A40D0D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>04F8C41C1CAC611D00A40D0D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C84E44CD763FB43C97C572F8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TestBlogTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>BykhkaloKonstantyn.TestBlogTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/TestBlog.app/TestBlog</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>04F8C41D1CAC611D00A40D0D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>410A3364CE7D5F2BB27120BE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TestBlogTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>BykhkaloKonstantyn.TestBlogTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/TestBlog.app/TestBlog</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>04F8C41E1CAC657700A40D0D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>04F8C41F1CAC657700A40D0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Adapters</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C41F1CAC657700A40D0D</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>KBBlogDelegate</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4201CAC657700A40D0D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>04F8C4211CAC657700A40D0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Controllers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4211CAC657700A40D0D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>04F8C4221CAC659B00A40D0D</string>
-				<string>04F8C4231CAC659B00A40D0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>KBBlogController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4221CAC659B00A40D0D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>KBBlogViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4231CAC659B00A40D0D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>KBBlogViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4241CAC659B00A40D0D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04F8C4231CAC659B00A40D0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>04F8C4251CAC66D300A40D0D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04F8C4261CAC66D300A40D0D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04F8C4251CAC66D300A40D0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1279D5322B211DD22C883A99</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TestBlog.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TestBlog/Pods-TestBlog.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1659D922E5A8197D71985715</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TestBlog.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TestBlog/Pods-TestBlog.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D89171B407E5F7AB29B5776</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TestBlogTests/Pods-TestBlogTests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>32437058CDFECD5A8FD65E1E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TestBlog/Pods-TestBlog-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>410A3364CE7D5F2BB27120BE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TestBlogTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TestBlogTests/Pods-TestBlogTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>489347BB6E075FA25C060527</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9CBF5B02F7C0596A19A5606B</string>
-				<string>AB69B385CD736D99114CB968</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B64642404513C20D000D01A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TestBlog/Pods-TestBlog-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>8A937B92D965433B33C3EC4A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>97466D451385CB1219E92DAB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9CBF5B02F7C0596A19A5606B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9CBF5B02F7C0596A19A5606B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TestBlog.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A9334BEA554D374AA761CB21</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AB69B385CD736D99114CB968</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AB69B385CD736D99114CB968</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TestBlogTests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C84E44CD763FB43C97C572F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TestBlogTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TestBlogTests/Pods-TestBlogTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C8F4F60E880F617B65D02236</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TestBlogTests/Pods-TestBlogTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>DCE07418AFD21E62CEC711F9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>DE80224365AC0EEFCC482C61</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1279D5322B211DD22C883A99</string>
-				<string>1659D922E5A8197D71985715</string>
-				<string>C84E44CD763FB43C97C572F8</string>
-				<string>410A3364CE7D5F2BB27120BE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>04F8C3EE1CAC611D00A40D0D</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F8C3FB1CAC611D00A40D0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C3FA1CAC611D00A40D0D /* main.m */; };
+		04F8C3FE1CAC611D00A40D0D /* KBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C3FD1CAC611D00A40D0D /* KBAppDelegate.m */; };
+		04F8C4041CAC611D00A40D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F8C4021CAC611D00A40D0D /* Main.storyboard */; };
+		04F8C4061CAC611D00A40D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F8C4051CAC611D00A40D0D /* Assets.xcassets */; };
+		04F8C4091CAC611D00A40D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F8C4071CAC611D00A40D0D /* LaunchScreen.storyboard */; };
+		04F8C4141CAC611D00A40D0D /* TestBlogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C4131CAC611D00A40D0D /* TestBlogTests.m */; };
+		04F8C4241CAC659B00A40D0D /* KBBlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C4231CAC659B00A40D0D /* KBBlogViewController.m */; };
+		04F8C4261CAC66D300A40D0D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 04F8C4251CAC66D300A40D0D /* Podfile */; };
+		04F8C4291CAC6A7A00A40D0D /* KBBlogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C4281CAC6A7A00A40D0D /* KBBlogView.m */; };
+		97466D451385CB1219E92DAB /* libPods-TestBlog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBF5B02F7C0596A19A5606B /* libPods-TestBlog.a */; };
+		A9334BEA554D374AA761CB21 /* libPods-TestBlogTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB69B385CD736D99114CB968 /* libPods-TestBlogTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F8C4101CAC611D00A40D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F8C3EE1CAC611D00A40D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F8C3F51CAC611D00A40D0D;
+			remoteInfo = TestBlog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F8C3F61CAC611D00A40D0D /* TestBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F8C3FA1CAC611D00A40D0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F8C3FC1CAC611D00A40D0D /* KBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBAppDelegate.h; sourceTree = "<group>"; };
+		04F8C3FD1CAC611D00A40D0D /* KBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBAppDelegate.m; sourceTree = "<group>"; };
+		04F8C4031CAC611D00A40D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F8C4051CAC611D00A40D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F8C4081CAC611D00A40D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F8C40A1CAC611D00A40D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F8C40F1CAC611D00A40D0D /* TestBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F8C4131CAC611D00A40D0D /* TestBlogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBlogTests.m; sourceTree = "<group>"; };
+		04F8C4151CAC611D00A40D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F8C4221CAC659B00A40D0D /* KBBlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBlogViewController.h; sourceTree = "<group>"; };
+		04F8C4231CAC659B00A40D0D /* KBBlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBlogViewController.m; sourceTree = "<group>"; };
+		04F8C4251CAC66D300A40D0D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		04F8C4271CAC6A7A00A40D0D /* KBBlogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBlogView.h; sourceTree = "<group>"; };
+		04F8C4281CAC6A7A00A40D0D /* KBBlogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBlogView.m; sourceTree = "<group>"; };
+		1279D5322B211DD22C883A99 /* Pods-TestBlog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlog/Pods-TestBlog.debug.xcconfig"; sourceTree = "<group>"; };
+		1659D922E5A8197D71985715 /* Pods-TestBlog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlog.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlog/Pods-TestBlog.release.xcconfig"; sourceTree = "<group>"; };
+		410A3364CE7D5F2BB27120BE /* Pods-TestBlogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlogTests/Pods-TestBlogTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CBF5B02F7C0596A19A5606B /* libPods-TestBlog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestBlog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB69B385CD736D99114CB968 /* libPods-TestBlogTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestBlogTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84E44CD763FB43C97C572F8 /* Pods-TestBlogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlogTests/Pods-TestBlogTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F8C3F31CAC611D00A40D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97466D451385CB1219E92DAB /* libPods-TestBlog.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F8C40C1CAC611D00A40D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9334BEA554D374AA761CB21 /* libPods-TestBlogTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F8C3ED1CAC611D00A40D0D = {
+			isa = PBXGroup;
+			children = (
+				04F8C3F81CAC611D00A40D0D /* TestBlog */,
+				04F8C4121CAC611D00A40D0D /* TestBlogTests */,
+				04F8C3F71CAC611D00A40D0D /* Products */,
+				DE80224365AC0EEFCC482C61 /* Pods */,
+				489347BB6E075FA25C060527 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04F8C3F71CAC611D00A40D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F8C3F61CAC611D00A40D0D /* TestBlog.app */,
+				04F8C40F1CAC611D00A40D0D /* TestBlogTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F8C3F81CAC611D00A40D0D /* TestBlog */ = {
+			isa = PBXGroup;
+			children = (
+				04F8C3FC1CAC611D00A40D0D /* KBAppDelegate.h */,
+				04F8C3FD1CAC611D00A40D0D /* KBAppDelegate.m */,
+				04F8C41E1CAC657700A40D0D /* Adapters */,
+				04F8C4201CAC657700A40D0D /* Controllers */,
+				04F8C4251CAC66D300A40D0D /* Podfile */,
+				04F8C4021CAC611D00A40D0D /* Main.storyboard */,
+				04F8C4051CAC611D00A40D0D /* Assets.xcassets */,
+				04F8C4071CAC611D00A40D0D /* LaunchScreen.storyboard */,
+				04F8C40A1CAC611D00A40D0D /* Info.plist */,
+				04F8C3F91CAC611D00A40D0D /* Supporting Files */,
+			);
+			path = TestBlog;
+			sourceTree = "<group>";
+		};
+		04F8C3F91CAC611D00A40D0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F8C3FA1CAC611D00A40D0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F8C4121CAC611D00A40D0D /* TestBlogTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F8C4131CAC611D00A40D0D /* TestBlogTests.m */,
+				04F8C4151CAC611D00A40D0D /* Info.plist */,
+			);
+			path = TestBlogTests;
+			sourceTree = "<group>";
+		};
+		04F8C41E1CAC657700A40D0D /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				04F8C41F1CAC657700A40D0D /* KBBlogDelegate */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		04F8C41F1CAC657700A40D0D /* KBBlogDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KBBlogDelegate;
+			sourceTree = "<group>";
+		};
+		04F8C4201CAC657700A40D0D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04F8C4211CAC657700A40D0D /* KBBlogController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04F8C4211CAC657700A40D0D /* KBBlogController */ = {
+			isa = PBXGroup;
+			children = (
+				04F8C4221CAC659B00A40D0D /* KBBlogViewController.h */,
+				04F8C4231CAC659B00A40D0D /* KBBlogViewController.m */,
+				04F8C4271CAC6A7A00A40D0D /* KBBlogView.h */,
+				04F8C4281CAC6A7A00A40D0D /* KBBlogView.m */,
+			);
+			path = KBBlogController;
+			sourceTree = "<group>";
+		};
+		489347BB6E075FA25C060527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CBF5B02F7C0596A19A5606B /* libPods-TestBlog.a */,
+				AB69B385CD736D99114CB968 /* libPods-TestBlogTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE80224365AC0EEFCC482C61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1279D5322B211DD22C883A99 /* Pods-TestBlog.debug.xcconfig */,
+				1659D922E5A8197D71985715 /* Pods-TestBlog.release.xcconfig */,
+				C84E44CD763FB43C97C572F8 /* Pods-TestBlogTests.debug.xcconfig */,
+				410A3364CE7D5F2BB27120BE /* Pods-TestBlogTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F8C3F51CAC611D00A40D0D /* TestBlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F8C4181CAC611D00A40D0D /* Build configuration list for PBXNativeTarget "TestBlog" */;
+			buildPhases = (
+				DCE07418AFD21E62CEC711F9 /* Check Pods Manifest.lock */,
+				04F8C3F21CAC611D00A40D0D /* Sources */,
+				04F8C3F31CAC611D00A40D0D /* Frameworks */,
+				04F8C3F41CAC611D00A40D0D /* Resources */,
+				32437058CDFECD5A8FD65E1E /* Embed Pods Frameworks */,
+				4B64642404513C20D000D01A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestBlog;
+			productName = TestBlog;
+			productReference = 04F8C3F61CAC611D00A40D0D /* TestBlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F8C40E1CAC611D00A40D0D /* TestBlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F8C41B1CAC611D00A40D0D /* Build configuration list for PBXNativeTarget "TestBlogTests" */;
+			buildPhases = (
+				8A937B92D965433B33C3EC4A /* Check Pods Manifest.lock */,
+				04F8C40B1CAC611D00A40D0D /* Sources */,
+				04F8C40C1CAC611D00A40D0D /* Frameworks */,
+				04F8C40D1CAC611D00A40D0D /* Resources */,
+				2D89171B407E5F7AB29B5776 /* Embed Pods Frameworks */,
+				C8F4F60E880F617B65D02236 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F8C4111CAC611D00A40D0D /* PBXTargetDependency */,
+			);
+			name = TestBlogTests;
+			productName = TestBlogTests;
+			productReference = 04F8C40F1CAC611D00A40D0D /* TestBlogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F8C3EE1CAC611D00A40D0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bykhkalo Konstantyh";
+				TargetAttributes = {
+					04F8C3F51CAC611D00A40D0D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					04F8C40E1CAC611D00A40D0D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04F8C3F51CAC611D00A40D0D;
+					};
+				};
+			};
+			buildConfigurationList = 04F8C3F11CAC611D00A40D0D /* Build configuration list for PBXProject "TestBlog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F8C3ED1CAC611D00A40D0D;
+			productRefGroup = 04F8C3F71CAC611D00A40D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F8C3F51CAC611D00A40D0D /* TestBlog */,
+				04F8C40E1CAC611D00A40D0D /* TestBlogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F8C3F41CAC611D00A40D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F8C4091CAC611D00A40D0D /* LaunchScreen.storyboard in Resources */,
+				04F8C4061CAC611D00A40D0D /* Assets.xcassets in Resources */,
+				04F8C4261CAC66D300A40D0D /* Podfile in Resources */,
+				04F8C4041CAC611D00A40D0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F8C40D1CAC611D00A40D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D89171B407E5F7AB29B5776 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestBlogTests/Pods-TestBlogTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32437058CDFECD5A8FD65E1E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestBlog/Pods-TestBlog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B64642404513C20D000D01A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestBlog/Pods-TestBlog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A937B92D965433B33C3EC4A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F4F60E880F617B65D02236 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestBlogTests/Pods-TestBlogTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCE07418AFD21E62CEC711F9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F8C3F21CAC611D00A40D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F8C4241CAC659B00A40D0D /* KBBlogViewController.m in Sources */,
+				04F8C3FE1CAC611D00A40D0D /* KBAppDelegate.m in Sources */,
+				04F8C3FB1CAC611D00A40D0D /* main.m in Sources */,
+				04F8C4291CAC6A7A00A40D0D /* KBBlogView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F8C40B1CAC611D00A40D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F8C4141CAC611D00A40D0D /* TestBlogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F8C4111CAC611D00A40D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F8C3F51CAC611D00A40D0D /* TestBlog */;
+			targetProxy = 04F8C4101CAC611D00A40D0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F8C4021CAC611D00A40D0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F8C4031CAC611D00A40D0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F8C4071CAC611D00A40D0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F8C4081CAC611D00A40D0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F8C4161CAC611D00A40D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F8C4171CAC611D00A40D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F8C4191CAC611D00A40D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1279D5322B211DD22C883A99 /* Pods-TestBlog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestBlog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BykhkaloKonstantyn.TestBlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04F8C41A1CAC611D00A40D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1659D922E5A8197D71985715 /* Pods-TestBlog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestBlog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BykhkaloKonstantyn.TestBlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04F8C41C1CAC611D00A40D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84E44CD763FB43C97C572F8 /* Pods-TestBlogTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestBlogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BykhkaloKonstantyn.TestBlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestBlog.app/TestBlog";
+			};
+			name = Debug;
+		};
+		04F8C41D1CAC611D00A40D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410A3364CE7D5F2BB27120BE /* Pods-TestBlogTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestBlogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BykhkaloKonstantyn.TestBlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestBlog.app/TestBlog";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F8C3F11CAC611D00A40D0D /* Build configuration list for PBXProject "TestBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F8C4161CAC611D00A40D0D /* Debug */,
+				04F8C4171CAC611D00A40D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F8C4181CAC611D00A40D0D /* Build configuration list for PBXNativeTarget "TestBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F8C4191CAC611D00A40D0D /* Debug */,
+				04F8C41A1CAC611D00A40D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F8C41B1CAC611D00A40D0D /* Build configuration list for PBXNativeTarget "TestBlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F8C41C1CAC611D00A40D0D /* Debug */,
+				04F8C41D1CAC611D00A40D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F8C3EE1CAC611D00A40D0D /* Project object */;
+}
