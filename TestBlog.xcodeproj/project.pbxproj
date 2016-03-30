@@ -47,6 +47,7 @@
 		04F8C4251CAC66D300A40D0D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
 		04F8C4271CAC6A7A00A40D0D /* KBBlogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBlogView.h; sourceTree = "<group>"; };
 		04F8C4281CAC6A7A00A40D0D /* KBBlogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBlogView.m; sourceTree = "<group>"; };
+		04F8C42D1CAC6F3400A40D0D /* KBMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBMacros.h; sourceTree = "<group>"; };
 		1279D5322B211DD22C883A99 /* Pods-TestBlog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlog/Pods-TestBlog.debug.xcconfig"; sourceTree = "<group>"; };
 		1659D922E5A8197D71985715 /* Pods-TestBlog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlog.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlog/Pods-TestBlog.release.xcconfig"; sourceTree = "<group>"; };
 		410A3364CE7D5F2BB27120BE /* Pods-TestBlogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlogTests/Pods-TestBlogTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +103,7 @@
 				04F8C3FD1CAC611D00A40D0D /* KBAppDelegate.m */,
 				04F8C41E1CAC657700A40D0D /* Adapters */,
 				04F8C4201CAC657700A40D0D /* Controllers */,
+				04F8C42A1CAC6EAD00A40D0D /* Services */,
 				04F8C4251CAC66D300A40D0D /* Podfile */,
 				04F8C4021CAC611D00A40D0D /* Main.storyboard */,
 				04F8C4051CAC611D00A40D0D /* Assets.xcassets */,
@@ -161,6 +163,30 @@
 				04F8C4281CAC6A7A00A40D0D /* KBBlogView.m */,
 			);
 			path = KBBlogController;
+			sourceTree = "<group>";
+		};
+		04F8C42A1CAC6EAD00A40D0D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04F8C42B1CAC6EAD00A40D0D /* Macros */,
+				04F8C42C1CAC6EAD00A40D0D /* Managers */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04F8C42B1CAC6EAD00A40D0D /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				04F8C42D1CAC6F3400A40D0D /* KBMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		04F8C42C1CAC6EAD00A40D0D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		489347BB6E075FA25C060527 /* Frameworks */ = {
