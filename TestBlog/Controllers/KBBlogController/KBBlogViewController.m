@@ -7,7 +7,14 @@
 //
 
 #import "KBBlogViewController.h"
+#import "KBBlogDelegate.h"
+
 #import "KBMacros.h"
+
+@interface KBBlogViewController ()
+
+@property (nonatomic, strong) KBBlogDelegate *blogDelegate;
+@end
 
 @implementation KBBlogViewController
 
@@ -16,9 +23,27 @@ UIViewControllerViewGetterSynthesize(KBBlogView, blogView)
 #pragma mark -
 #pragma mark LoadingView
 
-- (void)viewDidLoad {
-    
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        [self commonInit];
+    }
+    return self;
+}
 
+- (void)commonInit {
+    KBBlogDelegate *blogDelegate = [[KBBlogDelegate alloc] init];
+    self.blogDelegate = blogDelegate;
+}
+
+- (void)viewDidLoad {
+    KBBlogDelegate *blogDelegate = self.blogDelegate;
+    UITableView *tableView = self.blogView.tableView;
+    
+    blogDelegate.tableView = tableView;
+    tableView.delegate = blogDelegate;
+    tableView.dataSource = blogDelegate;
 }
 
 @end

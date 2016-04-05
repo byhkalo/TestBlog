@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface KBBlogView : UIView
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end

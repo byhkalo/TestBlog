@@ -29,6 +29,9 @@
                             <constraint firstItem="GkE-5z-Cix" firstAttribute="leading" secondItem="wFs-0w-qn5" secondAttribute="leading" id="q7M-Sa-aqc"/>
                             <constraint firstItem="GkE-5z-Cix" firstAttribute="top" secondItem="wFs-0w-qn5" secondAttribute="top" id="zeQ-dZ-9G7"/>
                         </constraints>
+                        <connections>
+                            <outlet property="tableView" destination="GkE-5z-Cix" id="bQ8-nJ-BVC"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mue-0O-Ecy" userLabel="First Responder" sceneMemberID="firstResponder"/>
