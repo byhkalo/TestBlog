@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045A358E1CB4755D0092FE0E /* KBBlogTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 045A358D1CB4755D0092FE0E /* KBBlogTableCell.m */; };
+		045A35901CB475750092FE0E /* KBBlogTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045A358F1CB475750092FE0E /* KBBlogTableCell.xib */; };
 		04F8C3FB1CAC611D00A40D0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C3FA1CAC611D00A40D0D /* main.m */; };
 		04F8C3FE1CAC611D00A40D0D /* KBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8C3FD1CAC611D00A40D0D /* KBAppDelegate.m */; };
 		04F8C4041CAC611D00A40D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F8C4021CAC611D00A40D0D /* Main.storyboard */; };
@@ -33,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045A358C1CB4755D0092FE0E /* KBBlogTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBlogTableCell.h; sourceTree = "<group>"; };
+		045A358D1CB4755D0092FE0E /* KBBlogTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBlogTableCell.m; sourceTree = "<group>"; };
+		045A358F1CB475750092FE0E /* KBBlogTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KBBlogTableCell.xib; sourceTree = "<group>"; };
 		04F8C3F61CAC611D00A40D0D /* TestBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F8C3FA1CAC611D00A40D0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04F8C3FC1CAC611D00A40D0D /* KBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBAppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045A358B1CB4753C0092FE0E /* KBBlogTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				045A358C1CB4755D0092FE0E /* KBBlogTableCell.h */,
+				045A358D1CB4755D0092FE0E /* KBBlogTableCell.m */,
+				045A358F1CB475750092FE0E /* KBBlogTableCell.xib */,
+			);
+			path = KBBlogTableCell;
+			sourceTree = "<group>";
+		};
 		04F8C3ED1CAC611D00A40D0D = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +184,7 @@
 				04F8C4231CAC659B00A40D0D /* KBBlogViewController.m */,
 				04F8C4271CAC6A7A00A40D0D /* KBBlogView.h */,
 				04F8C4281CAC6A7A00A40D0D /* KBBlogView.m */,
+				045A358B1CB4753C0092FE0E /* KBBlogTableCell */,
 			);
 			path = KBBlogController;
 			sourceTree = "<group>";
@@ -304,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F8C4091CAC611D00A40D0D /* LaunchScreen.storyboard in Resources */,
+				045A35901CB475750092FE0E /* KBBlogTableCell.xib in Resources */,
 				04F8C4061CAC611D00A40D0D /* Assets.xcassets in Resources */,
 				04F8C4261CAC66D300A40D0D /* Podfile in Resources */,
 				04F8C4041CAC611D00A40D0D /* Main.storyboard in Resources */,
@@ -418,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F8C4241CAC659B00A40D0D /* KBBlogViewController.m in Sources */,
+				045A358E1CB4755D0092FE0E /* KBBlogTableCell.m in Sources */,
 				04F8C3FE1CAC611D00A40D0D /* KBAppDelegate.m in Sources */,
 				04F8C4331CAC732500A40D0D /* KBBlogDelegate.m in Sources */,
 				04F8C3FB1CAC611D00A40D0D /* main.m in Sources */,
