@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "KBBlogTableCell.h"
 
 @interface KBBlogDelegate : NSObject <UITableViewDelegate, UITableViewDataSource>
 

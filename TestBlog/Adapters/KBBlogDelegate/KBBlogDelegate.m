@@ -8,7 +8,10 @@
 
 #import "KBBlogDelegate.h"
 
+NSString *cellIdentifier = nil;
+
 @interface KBBlogDelegate ()
+@property (nonatomic, strong) NSArray *postsArray;
 
 - (void)getPosts;
 @end
@@ -23,6 +26,7 @@
     self = [super init];
     if (self) {
         [self getPosts];
+        cellIdentifier = NSStringFromClass([KBBlogTableCell class]);
     }
     return self;
 }
@@ -34,15 +38,31 @@
 #pragma mark -
 #pragma mark Accessors
 
+- (void)setPostsArray:(NSArray *)postsArray {
+    _postsArray = postsArray;
+    [self.tableView reloadData];
+}
+
+- (void)setTableView:(UITableView *)tableView {
+    if (![tableView dequeueReusableCellWithIdentifier:cellIdentifier]) {
+        UINib *nib = [UINib nibWithNibName:cellIdentifier bundle:nil];
+        [[self tableView] registerNib:nib forCellReuseIdentifier:cellIdentifier];
+    }
+}
 
 #pragma mark -
 #pragma mark UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return self.postsArray.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    KBBlogTableCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (cell) {
+        
+    }
     return nil;
 }
 
