@@ -8,7 +8,32 @@
 
 #import "KBBlogDelegate.h"
 
+@interface KBBlogDelegate ()
+
+- (void)getPosts;
+@end
+
 @implementation KBBlogDelegate
+
+#pragma mark -
+#pragma mark Initialization
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self getPosts];
+    }
+    return self;
+}
+
+- (void)getPosts {
+    //get posts from network;
+}
+
+#pragma mark -
+#pragma mark Accessors
+
 
 #pragma mark -
 #pragma mark UITableViewDataSource
